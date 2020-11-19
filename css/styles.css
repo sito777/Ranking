@@ -1,0 +1,408 @@
+/* Styleguide*/
+p {
+  font-size: 11pt;
+  color: black;
+}
+
+.p-centerd{
+  font-size: 11pt;
+  color: black;
+  text-align: center;
+}
+
+.learnmore-left{
+  text-align: left;
+  margin-top: 10px;
+}
+
+.learnmore{
+  padding: 0 20px;
+  text-align: center;
+}
+
+.learnmore:hover{
+  padding: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+.learnmore-centerd{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+
+.learnmore-centerd:hover{
+  color: #007bff;
+}
+
+.btn-md{
+  border-radius: 30px;
+}
+
+.kop-z-centerd{
+  font-size: 15pt;
+  text-align: center;
+  margin-top: -20px;
+  color: black;
+}
+
+.kop-w-centerd{
+  font-size: 15pt;
+  text-align: center;
+  margin-top: -20px;
+  color: white;
+}
+
+.kop{
+  color: black;
+  font-size: 40pt;
+  font-weight: 600;
+  text-align: center;
+}
+
+.kop-w{
+  color: white;
+  font-size: 40pt;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.img-centerd{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.images{
+  width: inherit;
+}
+
+/* navigatie */
+.nav {
+  background-color: rgba(0,0,0,0.8);
+  opacity: 100%;
+  padding: 5px;
+}
+
+.nav a{
+  font-size: 10pt;
+  color: #aeaeae;
+}
+
+.nav-item{
+  padding: 0px 35px;
+}
+
+.nav a:hover,.nav-item :active{
+  font-size: 10pt;
+  color: #f5f5f7;
+  transition: 0.7s;
+}
+
+.nav-item #logo{
+  background-image: url("../img/apple.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  height: 30px;
+  background-size: 60%;
+}
+
+.nav-item #logo:hover{
+  background-image: url("../img/appleW.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  height: 30px;
+  background-size: 60%;
+  transition: 0.7s;
+}
+
+.nav-item #searchbtn{
+  background-image: url("../img/search-icon.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  height: 30px;
+  background-size: 70%;
+}
+
+.nav-item #searchbtn:hover{
+  background-image: url("../img/search-iconW.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  height: 30px;
+  background-size: 70%;
+  transition: 0.7s;
+}
+
+.nav-item #shoppingbag{
+  background-image: url("../img/shopping-bag.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  height: 30px;
+  background-size: 70%;
+}
+
+.nav-item #shoppingbag:hover{
+  background-image: url("../img/shopping-bagW.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  height: 30px;
+  background-size: 70%;
+  transition: 0.7s;
+}
+
+/* promotie banner in de navigatie */
+.promo-banner{
+  background-color: #ffffff;
+}
+
+#promo-banner{
+  padding-top: 50px;
+}
+
+.promo-banner p{
+  font-size: 10pt; 
+  margin: 15px 0px;
+  text-align: center;
+}
+
+/* hoofdpagina/index */
+.iphone12-wrap{
+  background-color: #fcfbfe;
+  height: 100%;
+  width: 100%;
+}
+
+.iphone12-info{
+  margin-bottom: 100px;
+  padding-top: 50px;
+}
+
+.col-md-{
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#collinks{
+  margin-left: 200px;
+}
+
+#colrechts{
+  margin-right: 200px;
+}
+
+
+/* footer */
+footer{
+  background-color: #f5f5f7;
+  margin-top: -5px;
+  padding-bottom: 10px;
+}
+
+.dataplan p{
+  font-size: 9pt;
+  color: #86868b;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.dataplan p a{
+  font-size: 9pt;
+  color: #3b3b3b;
+  margin: 0;
+}
+
+.divider{
+  height: 1px;
+  color: #3333;
+  margin: 20px 0px;
+  padding: 0;
+}
+
+.footer-col, .contact-right{
+  font-size: 9pt;
+  color: #86868b;
+}
+
+.kop-footer{
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+ul li{
+  margin-left: -25px;
+  list-style: none;
+  padding: 3px 0px;
+}
+
+.contact p, .col, .dataplan ol, footer .row .col p{
+  font-size: 9pt;
+  color: #86868b;
+}
+
+.contact p a, .col-5 a, .contact-right, .contact-right:hover{
+  font-size: 9pt;
+  color: #3b3b3b;
+}
+
+.contact-right{
+  float: right;
+}
+
+.col-5{
+  text-align: center;
+  top: -5px;
+}
+
+/* 
+
+Mac pagina 
+
+*/
+.black-bg{
+  background-color: black;
+  padding-bottom: 200px;
+  padding-top: 50px;
+}
+
+.intro{
+  margin: auto;
+  width: 50%;
+}
+
+#m-1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.pagina-titel{
+  color: white;
+  font-size: 60pt;
+  font-weight: 600;
+  text-align: center;
+}
+
+.new-product{
+  margin-top: 200px;
+}
+
+.kop-oranje{
+  color: #f56300;
+  font-weight: 700;
+  font-size: 15pt;
+}
+
+.kop-1{
+  color: white;
+  font-size: 40pt;
+  font-weight: 600;
+}
+
+.kop-2{
+  color: white;
+  font-size: 20pt;
+  font-weight: 400;
+}
+
+.prijs{
+  color: white;
+}
+
+.launch-date{
+  color: #86868b;
+}
+
+.btn-lg{
+  border-radius: 30px;
+  width: 80px;
+}
+
+.wich-m, .wonderfull, .dailycash, .cards-2{
+  background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin: 30px 0px;
+}
+
+.choose-m{
+  margin: 100px;
+}
+
+.broodkop{
+  font-weight: 600;
+  font-size: 18pt;
+  margin-top: 30px;
+}
+
+.broodkop1{
+  font-size: 11pt;
+  font-weight: 500;
+}
+
+#specialmac{
+  color: #86868b;
+}
+
+.col-4 ul li{
+  margin-top: 15px;
+  margin-left: -40px;
+}
+
+.btn-sm{
+  border-radius: 30px;
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+#holiday-b{
+  width: 90%;
+  padding: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#monthly{
+  width: 100%;
+  padding-left: 20px;
+}
+
+.btn-centerd{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.accessories{
+  margin-top: 70px;
+  margin-bottom: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.times-3{
+  margin: 100px 0px;
+}
+
+.bigsur{
+  color: white;
+  font-size: 20pt;
+  font-weight: 400;
+  text-align: center;
+}
+
+.services {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+}
