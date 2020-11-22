@@ -29,8 +29,26 @@ body {
 form {
     background-color: #1F1F1F;
     border-radius: 20px;
-    padding: 3rem;
-    text-transform: uppercase;
+    padding: 4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-group input {
+    background-color: #474747;
+    color: white;
+    border: none;
+}
+
+.form-group button {
+    background-color: #292929;
+    color: white;
+    width: 100%
+}
+
+.form-group button:hover {
+    background-color: white;
+    color: #292929;
+    transition: 0.5s ease;
 }
 
 .home-ranking {
@@ -38,7 +56,7 @@ form {
     margin: auto;
     background-color: #1F1F1F;
     border-radius: 20px;
-    padding: 3rem;
-    text-transform: uppercase;
+    padding: 4rem;
     margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
