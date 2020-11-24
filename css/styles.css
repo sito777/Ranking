@@ -24,6 +24,7 @@ body {
 .home-form {
     width: 40%;
     margin: auto;
+    padding-top: 50px;
 }
 
 form {
@@ -41,4 +42,5 @@ form {
     padding: 3rem;
     text-transform: uppercase;
     margin-top: 2rem;
+    margin-bottom: 50px;
 }
