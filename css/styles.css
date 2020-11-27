@@ -19,8 +19,10 @@ body {
     background-position: center;
     color: white;
     height: 100vh;
+    padding-top: 50px;
 }
 
+/*
 .home-form {
     width: 40%;
     margin: auto;
@@ -51,7 +53,7 @@ form {
     color: #292929;
     transition: 0.5s ease;
 }
-
+*/
 
 /*rannking sectie*/
 
