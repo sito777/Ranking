@@ -77,3 +77,7 @@ table {
     padding: 1em;
     border: 2px solid white;
 }
+
+th, td {
+    padding-left: 5px;
+}
