@@ -65,12 +65,15 @@ form {
     margin-bottom: 50px;
 }
 
-.home-ranking.table {
-    font-size: 11;
-    width: 90%;
-    border-radius: 6px;
-    margin: 40px auto;
+table {
     border-collapse: collapse;
-    border: 1px solid #ffffff;
-    text-align: center;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 1em;
+    background: #ddd;
+    border-bottom: 2px solid white;
 }
