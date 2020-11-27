@@ -52,7 +52,9 @@ form {
     transition: 0.5s ease;
 }
 
+
 /*rannking sectie*/
+
 .home-ranking {
     width: 40%;
     margin: auto;
@@ -64,7 +66,7 @@ form {
 }
 
 .home-ranking.table {
-    width: 50%;
+    width: 90%;
     border-radius: 6px;
     margin: 40px auto;
 }
