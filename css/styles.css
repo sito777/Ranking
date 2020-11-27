@@ -73,7 +73,7 @@ table {
 }
 
 
-tr {
+.tablerow {
     padding: 1em;
     border: 2px solid white;
 }
