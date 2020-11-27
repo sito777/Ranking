@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
 }
 
-#fixed-bg{
+#fixed-bg {
     position: fixed;
     width: 100%;
     z-index: -1;
@@ -60,4 +60,10 @@ form {
     padding: 4rem;
     margin-top: 2rem;
     margin-bottom: 50px;
+}
+
+.home-ranking.table {
+    width: 50%;
+    border-radius: 6px;
+    margin: 40px auto;
 }
