@@ -74,15 +74,15 @@ td {
     border-radius: 10px;
 }
 
-.with {
+.ranking {
     border-collapse: collapse;
 }
 
-.with td {
+.ranking td {
     border: 0;
 }
 
-.with td>div {
+.ranking td div {
     border: 1px solid white;
     border-radius: 10px;
 }
