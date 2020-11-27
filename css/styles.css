@@ -86,4 +86,6 @@ td {
 .ranking td div {
     border: 1px solid white;
     border-radius: 10px;
+    height: 35px;
+    margin: 10px 0px;
 }
