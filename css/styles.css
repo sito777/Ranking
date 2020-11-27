@@ -76,6 +76,7 @@ td {
 
 .ranking {
     border-collapse: collapse;
+    width: 100%;
 }
 
 .ranking td {
