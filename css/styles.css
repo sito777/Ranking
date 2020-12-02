@@ -92,3 +92,24 @@ td {
     margin: 10px 0px;
     padding: 5px 10px;
 }
+
+/*footer*/
+.footer-bg{
+    background-color: #1F1F1F;
+    padding: 40px 0px;
+}
+
+.kop-footer, .credit p{
+    color: white;
+    text-align: center;
+}
+
+.credit p{
+    margin-bottom: -7px;
+}
+
+.credit .cap{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
