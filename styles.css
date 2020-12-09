@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#fixed-bg {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+.home-container {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    padding-top: 50px;
+    
+}
+
+/*
+.home-form {
+    width: 40%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+form {
+    background-color: #1F1F1F;
+    border-radius: 20px;
+    padding: 4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-group input {
+    background-color: #474747;
+    color: white;
+    border: none;
+}
+
+.form-group button {
+    background-color: #292929;
+    color: white;
+    width: 100%
+}
+
+.form-group button:hover {
+    background-color: white;
+    color: #292929;
+    transition: 0.5s ease;
+}
+*/
+
+/*rannking sectie*/
+
+.home-ranking {
+    width: 40%;
+    margin: auto;
+    background-color: #1F1F1F;
+    border-radius: 20px;
+    padding: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 50px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.ranking {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ranking td {
+    border: 0;
+}
+
+.ranking td div {
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 35px;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+/*footer*/
+.footer-bg{
+    background-color: #1F1F1F;
+    padding: 40px 0px;
+}
+
+.kop-footer, .credit p{
+    color: white;
+    text-align: center;
+}
+
+.credit p{
+    margin-bottom: -7px;
+}
+
+.credit .cap{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
