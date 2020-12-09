@@ -14,6 +14,38 @@ body {
     z-index: -1;
 }
 
+@media only screen and (max-width: 1200px){
+    #fixed-bg {
+    position: fixed;
+    width: 130%;
+    z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #fixed-bg {
+    position: fixed;
+    width: 160%;
+    z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    #fixed-bg {
+    position: fixed;
+    width: 200%;
+    z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #fixed-bg {
+    position: fixed;
+    width: 240%;
+    z-index: -1;
+    }
+}
+
 .home-container {
     background-size: cover;
     background-position: center;
