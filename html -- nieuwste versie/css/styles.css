@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #1F1F1F;
 }
 
 #fixed-bg {
@@ -88,25 +89,38 @@ form {
 }
 */
 
-/*rannking sectie*/
 
+/*icon (font-awesome)*/
+.fas {
+    margin-right: 10px;
+}
+
+/*welkom sectie*/
+.home-welkom {
+    width: 40%;
+    margin: auto;
+    background-color: #1F1F1F;
+    border-radius: 15px;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 30px;
+}
+
+.welkom {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+/*ranking sectie*/
 .home-ranking {
     width: 40%;
     margin: auto;
     background-color: #1F1F1F;
-    border-radius: 20px;
-    padding: 4rem;
+    border-radius: 15px;
+    padding: 3rem;
     margin-top: 2rem;
     margin-bottom: 50px;
-}
-
-table {
-    border-spacing: 0;
-}
-
-td {
-    border: 1px solid white;
-    border-radius: 10px;
 }
 
 .ranking {
@@ -120,30 +134,51 @@ td {
 
 .ranking td div {
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 35px;
     margin: 10px 0px;
     padding: 5px 10px;
     text-align: center;
 }
 
+table {
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
 /*footer*/
 .footer-bg{
     background-color: #1F1F1F;
-    padding: 40px 0px;
+    padding: 70px 220px 50px 220px;
+    margin-top: 200px;
 }
 
-.kop-footer, .credit p{
+.credits {
     color: white;
     text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
 }
 
-.credit p{
-    margin-bottom: -7px;
-}
-
-.credit .cap{
+.kop-footer {
+    text-align: center;
     text-transform: uppercase;
-    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.credits p{
+    margin-bottom: -7px;
+    font-weight: 100;
+}
+
+.credits .cap{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 380;
     margin-bottom: 30px;
 }

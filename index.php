@@ -62,6 +62,14 @@ if (!$result)
         </div>
         -->
 
+        <div class="home-welkom">
+            <!-- welkom sectie-->
+            <h4><i class="fas fa-laptop-code"></i>Software Developer Competition<br><br></h4>
+            <p>De wedstrijd is bedoeld voor leerlingen van de opleiding Software Developer. Je maakt een website met HTML en CSS volgens de gegeven criteria die je hebt geleerd in periode 1 en periode 2 van je eerste leerjaar. Doe mee aan de competitie en houd jouw score in de gaten!</p>
+            <p><i class="fas fa-sync"></i>De pagina reload vanzelf zodat de ranking up to date blijft!</p>
+            <p>Vergeet niet dat je prijzen kan winnen wanneer je op de 1e, 2e en 3e plek eindigd na het berekenen van je inlevertijd en het aantal behaalde punten.</p>
+        </div>
+
         <div class="home-ranking">
             <!-- rannking sectie-->
             <h4>Ranking Software Developer Competition</h4>
@@ -92,20 +100,13 @@ if (!$result)
 
     <footer>
         <div class="footer-bg">
-            <div class="credit">
+            <div class="credits">
                 <h2 class="kop-footer">Credits</h2>
-                <p>Desingers:
-                    <p class="cap">Darnell, Kyara, Burak, Mahmoud</p>
-                </p>
-                <p>Devolpers:
-                    <p class="cap">Darnell, Kyara, Burak, Mahmoud</p>
-                </p>
-                <p>Data:
-                    <p class="cap">Darnell, Kyara, Burak, Mahmoud</p>
-                </p>
+                <p class="cap">Darnell | Kyara | Burak | Mahmoud</p>
+                <p class="cap">Wedstijd voor cohort 2020 van de opleiding Software Developer (leerjaar 1), ROC Nijmegen</p>
+                <p>De website is gemaakt met HTML, CSS en Bootstrap. Het design en het prototype van de website zijn ontworpen met behulp van het programma Adobe XD. De connectie met de database is gelinked via PHP en MySQL. De planning en taakverdeling zijn gemaakt volgens de Scrum-methode. </p>
             </div>
         </div>
-
     </footer>
 </body>
 
