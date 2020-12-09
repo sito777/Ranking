@@ -20,6 +20,7 @@ body {
     color: white;
     height: 100vh;
     padding-top: 50px;
+    
 }
 
 /*
@@ -91,6 +92,7 @@ td {
     height: 35px;
     margin: 10px 0px;
     padding: 5px 10px;
+    text-align: center;
 }
 
 /*footer*/
