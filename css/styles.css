@@ -15,12 +15,45 @@ body {
     z-index: -1;
 }
 
+@media only screen and (max-width: 1200px){
+    #fixed-bg {
+    position: fixed;
+    width: 140%;
+    z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #fixed-bg {
+    position: fixed;
+    width: 170%;
+    z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    #fixed-bg {
+    position: fixed;
+    width: 200%;
+    z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #fixed-bg {
+    position: fixed;
+    width: 240%;
+    z-index: -1;
+    }
+}
+
 .home-container {
     background-size: cover;
     background-position: center;
     color: white;
     height: 100vh;
     padding-top: 50px;
+    
 }
 
 /*
@@ -104,6 +137,7 @@ form {
     height: 35px;
     margin: 10px 0px;
     padding: 5px 10px;
+    text-align: center;
 }
 
 table {
