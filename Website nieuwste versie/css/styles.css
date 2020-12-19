@@ -89,7 +89,6 @@ form {
 }
 */
 
-
 /*icon (font-awesome)*/
 .fas {
     margin-right: 10px;
@@ -126,6 +125,7 @@ form {
 .ranking {
     border-collapse: collapse;
     width: 100%;
+    
 }
 
 .ranking td {
@@ -133,13 +133,14 @@ form {
 }
 
 .ranking td div {
-    border: 1px solid white;
+    border-bottom:1px solid #4e4d4d;
     border-radius: 5px;
     height: 35px;
     margin: 10px 0px;
     padding: 5px 10px;
     text-align: center;
 }
+
 
 table {
     border-spacing: 0;
@@ -154,7 +155,7 @@ td {
 .footer-bg{
     background-color: #1F1F1F;
     padding: 70px 220px 50px 220px;
-    margin-top: 200px;
+    position: sticky;
 }
 
 .credits {
@@ -181,4 +182,7 @@ td {
     letter-spacing: 2px;
     font-weight: 380;
     margin-bottom: 30px;
+}
+.space{
+    padding-bottom: 900px;
 }

@@ -2,7 +2,7 @@
 require 'db.php';
 
 $query  = 'SELECT * FROM Rank
-            ORDER BY Tijd ASC';;
+            ORDER BY Punten DESC';;
 $result = mysqli_query($dbc, $query);  
 
 if (!$result)
@@ -25,6 +25,9 @@ if (!$result)
             window.location.reload(1);
         }, 60000);
     </script>
+
+    <!-- Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/5b23f4b030.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -62,9 +65,17 @@ if (!$result)
         </div>
         -->
 
+        <div class="home-welkom">
+            <!-- welkom sectie-->
+            <h4><i class="fas fa-laptop-code"></i>Software Developer Competition<br><br></h4>
+            <p>De wedstrijd is bedoeld voor leerlingen van de opleiding Software Developer. Je maakt een website met HTML en CSS volgens de gegeven criteria die je hebt geleerd in periode 1 en periode 2 van je eerste leerjaar. Doe mee aan de competitie en houd jouw score in de gaten!</p>
+        </div>
+
         <div class="home-ranking">
             <!-- rannking sectie-->
-            <h4>Ranking Software Developer Competition</h4>
+            <h4>Ranking</h4>
+            <p>De ranking is gesorteerd op behaalde punten. De tijd heeft er ook invloed op, bekijk jouw score hieronder! <br><br>De eerste drie leerlingen met de meeste punten krijgen een prijs in de vorm van een tegoedbon! Winnaars, gefeliciteerd!</p>
+            
             <table class="ranking">
                 <tbody>
                 <?php
@@ -76,7 +87,7 @@ if (!$result)
 
                     <tr>
                         <td>
-                            <div><?php echo $row["Naam"];?>  <?php echo $row["Tijd"];?> <?php echo $row["Niveau"];?>   </div>
+                            <div><?php echo $row["Path"];?> <?php echo $row["Voornaam"];?> <?php echo $row["Achternaam"];?> <?php echo $row["Tijd"];?> <?php echo $row["Punten"];?>   </div>
                         </td>
                     </tr>   
                     <tr>
@@ -86,26 +97,20 @@ if (!$result)
     ?>
                 </tbody>
             </table>
-        </div>
+            
     </div>
     </div>
-
+    <div class="space">
+    </div>
     <footer>
         <div class="footer-bg">
-            <div class="credit">
+            <div class="credits">
                 <h2 class="kop-footer">Credits</h2>
-                <p>Desingers:
-                    <p class="cap">Darnell, Kyara, Burak, Mahmoud</p>
-                </p>
-                <p>Devolpers:
-                    <p class="cap">Darnell, Kyara, Burak, Mahmoud</p>
-                </p>
-                <p>Data:
-                    <p class="cap">Darnell, Kyara, Burak, Mahmoud</p>
-                </p>
+                <p class="cap">Darnell | Kyara | Burak | Mahmoud</p>
+                <p class="cap">Wedstijd voor cohort 2020 van de opleiding Software Developer (leerjaar 1), ROC Nijmegen</p>
+                <p>De website is gemaakt met HTML, CSS en Bootstrap. Het design en het prototype van de website zijn ontworpen met behulp van het programma Adobe XD. De connectie met de database is gelinked via PHP en MySQL. De planning en taakverdeling zijn gemaakt volgens de Scrum-methode. </p>
             </div>
         </div>
-
     </footer>
 </body>
 
