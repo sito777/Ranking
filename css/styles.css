@@ -11,49 +11,13 @@ body {
 
 #fixed-bg {
     position: fixed;
-    width: 100%;
     z-index: -1;
-}
-
-@media only screen and (max-width: 1200px){
-    #fixed-bg {
-    position: fixed;
-    width: 140%;
-    z-index: -1;
-    }
-}
-
-@media only screen and (max-width: 900px){
-    #fixed-bg {
-    position: fixed;
-    width: 170%;
-    z-index: -1;
-    }
-}
-
-@media only screen and (max-width: 750px){
-    #fixed-bg {
-    position: fixed;
-    width: 200%;
-    z-index: -1;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    #fixed-bg {
-    position: fixed;
-    width: 240%;
-    z-index: -1;
-    }
 }
 
 .home-container {
-    background-size: cover;
-    background-position: center;
     color: white;
-    height: 100vh;
     padding-top: 50px;
-    
+    padding-bottom: 5%;
 }
 
 /*
@@ -153,13 +117,11 @@ td {
 .footer-bg{
     background-color: #1F1F1F;
     padding: 70px 220px 50px 220px;
-    margin-top: 200px;
 }
 
 .credits {
     color: white;
     text-align: center;
-    margin-bottom: 30px;
     letter-spacing: 2px;
 }
 
